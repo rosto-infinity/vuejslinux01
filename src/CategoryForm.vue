@@ -9,7 +9,7 @@
       <template #title> {{ title }} </template>
       
       <template #content>
-          <!-- Affichage des erreurs de formulaire -->
+          <!-- -Affichage des erreurs de formulaire -->
           <AppFormErrors class="mb-4" />
           
           <!-- Formulaire principal -->
