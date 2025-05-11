@@ -1,19 +1,26 @@
 <script setup>
  import {ref,} from 'vue'
- const product =ref('STOCKS prof')
- const description =ref('Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veniam hic quia eius debitis perspiciatis voluptas quasi nesciunt sed tenetur? Perspiciatis fuga alias sequi quae fugit similique nulla illo laborum?')
-</script>
+ import stocksGreenImage from './assets/images/socks_green.jpg'
 
+ const product =ref('STOCKS prof')
+ const description =ref('Lorem ipsum dolor ')
+const image =ref(stocksGreenImage)
+
+</script>
 <template>
-  <div class="product-display">
-    <div class="product-container">
-      <div class="product-info text-center pt-20">
-        <h1 class="text-8xl ">{{ product }}</h1>
-        <p> {{ description }}</p>
-        
-      </div>
+  <div class="nav-bar"></div>
+<div class="product-display">
+  <div class="product-container">
+    <div class="product-image">
+      <!-- image goes here -->
+       <img v-bind:src="image" alt="stok green">
+    </div>
+    <div class="product-info">
+      <h1>{{ product }}</h1>
+      <p> {{ description }}</p>
     </div>
   </div>
+</div>
 </template>
 <style scoped>
 </style>
