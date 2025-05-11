@@ -34,7 +34,7 @@
 <script setup>
 // Imports des dépendances
 import { useForm } from '@inertiajs/vue3'  // cGestion de formulaires Inertia
-import { onUnmounted } from 'vue'          // Cycle de vie Vue
+import { onUnmounted } from 'vue'          // dCycle de vie Vue
 import useTitle from '@/Composables/useTitle'          // Hook personnalisé pour les titres
 import useFormContext from '@/Composables/useFormContext' // Hook pour le contexte du formulaire
 import useCategoryStore from './CategoryStore'         // Store Pinia pour les catégories
