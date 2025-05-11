@@ -73,7 +73,7 @@ const breadCrumb = [
   { label: 'Category', last: true } // Dernier élément non cliquable
 ]
 
-// Gestion du titre dynamique
+// -Gestion du titre dynamique
 const { title } = useTitle('Category') // Génère "Create Category" ou "Edit Category"
 
 // Vérification du contexte (création vs édition)
