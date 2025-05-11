@@ -7,7 +7,7 @@ const inventory = ref(8) // Valeur initiale : 8 unités
 <template>
   <!-- cAffichage conditionnel basé sur la quantité en stock -->
   <div class="stock-status">
-    <!-- Cas 1 : Stock abondant (>10 unités) -->
+    <!-- fCas 1 : Stock abondant (>10 unités) -->
     <p v-if="inventory > 10" class="in-stock">
       In Stock
     </p>
