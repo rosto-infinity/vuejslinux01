@@ -66,7 +66,7 @@ onUnmounted(() => {
   categoryStore.$reset()
 })
 
-// Configuration du fil d'Ariane (breadcrumb)
+// dConfiguration du fil d'Ariane (breadcrumb)
 const breadCrumb = [
   { label: 'Home', href: route('dashboard.index') },
   { label: 'Categories', href: route('blogCategory.index') },
