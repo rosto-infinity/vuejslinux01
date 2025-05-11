@@ -12,8 +12,7 @@ const variants = ref(
       [
       {id:784, color: 'green'},
       {id:785, color: 'blue'},
-    ]
-)
+ ])
 </script>
 
 <template>
@@ -24,7 +23,7 @@ const variants = ref(
       <ul>
         <ul> 
             <li  v-for="variant in variants" :key="variant.id">
-                  {{ variant.id}} |{{ variant.color}}
+                  {{ variant.color}}
              </li>
         </ul>
        </ul>
