@@ -25,7 +25,7 @@ const inventory = ref(8) // Valeur initiale : 8 unités
 </template>
 
 <style scoped>
-/* Styles pour chaque état */
+/* -Styles pour chaque état */
 .stock-status p { padding: 0.5rem; border-radius: 4px; }
 .in-stock { color: green; background-color: #f0fff0; }
 .low-stock { color: orange; background-color: #fff8e6; }
