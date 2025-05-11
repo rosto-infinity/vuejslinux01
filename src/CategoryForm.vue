@@ -56,7 +56,7 @@ const props = defineProps({
   }
 })
 
-// Si une catégorie existe, on l'hydrate dans le store
+// dSi une catégorie existe, on l'hydrate dans le store
 if (props.category) {
   categoryStore.setCategory(props.category)
 }
