@@ -5,7 +5,7 @@
 
   <!-- -Carte principale contenant le formulaire -->
   <AppCard class="w-full md:w-3/4 xl:w-1/2">
-      <!-- Titre dynamique de la carte -->
+      <!-- -Titre dynamique de la carte -->
       <template #title> {{ title }} </template>
       
       <template #content>
