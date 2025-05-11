@@ -52,7 +52,7 @@ const categoryStore = useCategoryStore()
 const props = defineProps({
   category: {
       type: Object,
-      default: null  // Null signifie création d'une nouvelle catégorie
+      default: null  // cNull signifie création d'une nouvelle catégorie
   }
 })
 
