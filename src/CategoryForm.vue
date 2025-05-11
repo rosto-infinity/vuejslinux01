@@ -22,7 +22,7 @@
           </form>
       </template>
       
-      <!-- Pied de carte avec bouton de soumission -->
+      <!-- cPied de carte avec bouton de soumission -->
       <template #footer>
           <AppButton class="btn btn-primary" @click="submitForm">
               Save
