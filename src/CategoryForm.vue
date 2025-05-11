@@ -48,7 +48,7 @@ import CategoryVisibility from './Components/CategoryVisibility.vue'
 // cnitialisation du store Pinia
 const categoryStore = useCategoryStore()
 
-// Props : réception d'une catégorie existante (pour édition)
+// Props : fréception d'une catégorie existante (pour édition)
 const props = defineProps({
   category: {
       type: Object,
