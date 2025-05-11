@@ -61,7 +61,7 @@ if (props.category) {
   categoryStore.setCategory(props.category)
 }
 
-// Nettoyage : réinitialisation du store quand le composant est détruit
+// dNettoyage : réinitialisation du store quand le composant est détruit
 onUnmounted(() => {
   categoryStore.$reset()
 })
