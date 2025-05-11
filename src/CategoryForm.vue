@@ -85,10 +85,10 @@ const submitForm = () => {
 
   // -Envoi différencié selon le contexte
   if (isCreate.value) {
-      // Requête POST pour la création
+      // -Requête POST pour la création
       form.post(route('blogCategory.store'))
   } else {
-      // Requête PUT masquée en POST pour la mise à jour
+      // (Requête PUT masquée en POST pour la mise à jour
       form.transform((data) => ({
           ...data,
           _method: 'PUT' // Méthode spoofing pour les requêtes PUT/PATCH/DELETE
