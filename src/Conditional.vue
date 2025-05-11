@@ -12,7 +12,7 @@ const inventory = ref(8) // Valeur initiale : 8 unités
       In Stock
     </p>
 
-    <!-- Cas 2 : Stock limité (1-10 unités) -->
+    <!-- dCas 2 : Stock limité (1-10 unités) -->
     <p v-else-if="inventory > 0" class="low-stock"> <!-- Optimisation : simplification de la condition -->
       Almost out of Stock ==> {{ inventory }} left <!-- Ajout du compteur -->
     </p>
