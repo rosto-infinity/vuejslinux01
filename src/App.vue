@@ -2,13 +2,15 @@
  import {ref,} from 'vue'
  import stocksGreenImage from './assets/images/socks_blue.jpg'
 import Other from './Other.vue'
+import Conditional from './Conditional.vue'
+import List from './List.vue'
 
  const product =ref('STOCKS prof')
  const description =ref('Lorem ipsum dolor  Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor')
 const image =ref(stocksGreenImage)
 
 const inStock =ref(true)
-const inventory =ref(8)
+
 
 </script>
 <template>
@@ -21,17 +23,16 @@ const inventory =ref(8)
     </div>
     <div class="product-info">
       <h1>{{ product }}</h1>
-      <!-- <p> {{ description }}</p> -->
+      <p> {{ description }}</p>
+      <p v-if="inStock">In Stock</p> 
+     <p v-else>Out of Stock</p>
       <hr class="mb-4">
-      <p v-show="inStock">In Stock</p>
-      <p v-if="inventory > 10">In Stock 2</p>
-      <p v-else-if="inventory <10 && inventory >0">Almost of Stock ==></p>
-      <p v-else>Out of Stock</p>
-      <!-- <p v-else>Out of Stock</p> -->
+     <List/>
+      <Conditional/>
+      <Other/>
     </div>
   </div>
 </div>
-<Other/>
 </template>
 <style scoped>
 </style>
