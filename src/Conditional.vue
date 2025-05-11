@@ -1,7 +1,7 @@
 <script setup>
 // cDéclaration d'une référence réactive pour gérer le stock
 import { ref } from 'vue'
-const inventory = ref(8) // Valeur initiale : 8 unités
+const inventory = ref(100) // Valeur initiale : 8 unités
 </script>
 
 <template>

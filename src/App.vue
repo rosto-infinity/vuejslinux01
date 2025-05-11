@@ -11,6 +11,7 @@ import EventCard from './EventCard.vue'
 </script>
 <template>
   <EventCard />
+  <Conditional/>
 </template>
 <style scoped>
 </style>
