@@ -37,7 +37,7 @@ import { useForm } from '@inertiajs/vue3'  // cGestion de formulaires Inertia
 import { onUnmounted } from 'vue'          // dCycle de vie Vue
 import useTitle from '@/Composables/useTitle'          // fHook personnalisé pour les titres
 import useFormContext from '@/Composables/useFormContext' // dHook pour le contexte du formulaire
-import useCategoryStore from './CategoryStore'         // Store Pinia pour les catégories
+import useCategoryStore from './CategoryStore'         // sddStore Pinia pour les catégories
 
 // Imports des composants enfants
 import CategoryBody from './Components/CategoryBody.vue'
