@@ -15,7 +15,7 @@
           <!-- Formulaire principal -->
           <form class="pt-4">
               <!-- -Composants enfants pour chaque section du formulaire -->
-              <CategoryBody />      <!-- Champs de base (nom, description) -->
+              <CategoryBody />      <!-- xChamps de base (nom, description) -->
               <CategoryImage />     <!-- Upload d'image -->
               <CategorySeo />       <!-- Métadonnées SEO -->
               <CategoryVisibility /><!-- Paramètres de visibilité -->
