@@ -17,7 +17,7 @@ const inventory = ref(8) // Valeur initiale : 8 unités
       Almost out of Stock ==> {{ inventory }} left <!-- Ajout du compteur -->
     </p>
 
-    <!-- Cas 3 : Rupture de stock -->
+    <!-- fCas 3 : Rupture de stock -->
     <p v-else class="out-of-stock">
       Out of Stock
     </p>
