@@ -45,7 +45,7 @@ import CategoryImage from './Components/CategoryImage.vue'
 import CategorySeo from './Components/CategorySeo.vue'
 import CategoryVisibility from './Components/CategoryVisibility.vue'
 
-// Initialisation du store Pinia
+// cnitialisation du store Pinia
 const categoryStore = useCategoryStore()
 
 // Props : réception d'une catégorie existante (pour édition)
