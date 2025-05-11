@@ -13,7 +13,9 @@ const image =ref(stocksGreenImage)
   <div class="product-container">
     <div class="product-image">
       <!-- image goes here -->
-       <img v-bind:src="image" alt="stok green">
+       <img :src="image" alt="stok green">
+
+       
     </div>
     <div class="product-info">
       <h1>{{ product }}</h1>
