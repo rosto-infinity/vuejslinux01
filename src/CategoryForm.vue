@@ -16,7 +16,7 @@
           <form class="pt-4">
               <!-- -Composants enfants pour chaque section du formulaire -->
               <CategoryBody />      <!-- xChamps de base (nom, description) -->
-              <CategoryImage />     <!-- Upload d'image -->
+              <CategoryImage />     <!-- cUpload d'image -->
               <CategorySeo />       <!-- Métadonnées SEO -->
               <CategoryVisibility /><!-- Paramètres de visibilité -->
           </form>
