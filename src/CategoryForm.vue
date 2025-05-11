@@ -83,7 +83,7 @@ const { isCreate } = useFormContext()
 const submitForm = () => {
   const form = useForm(categoryStore.category) // Crée un objet form Inertia
 
-  // Envoi différencié selon le contexte
+  // -Envoi différencié selon le contexte
   if (isCreate.value) {
       // Requête POST pour la création
       form.post(route('blogCategory.store'))
