@@ -79,7 +79,7 @@ const { title } = useTitle('Category') // Génère "Create Category" ou "Edit Ca
 // -Vérification du contexte (création vs édition)
 const { isCreate } = useFormContext()
 
-// Soumission du formulaire
+// -Soumission du formulaire
 const submitForm = () => {
   const form = useForm(categoryStore.category) // Crée un objet form Inertia
 
