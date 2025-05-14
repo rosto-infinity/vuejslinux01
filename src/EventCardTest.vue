@@ -37,7 +37,7 @@ const UpdateImage = (variantImage) => {
           class="color-circle"
           :style="{ backgroundColor: variant.color }" 
         >
-          <!-- {{ variant.color }} -->
+          <!-- {{ -variant.color }} -->
         </div>
      </div>
   </div>
