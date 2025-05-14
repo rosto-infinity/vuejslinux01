@@ -20,7 +20,7 @@ const variants = ref([
 <template>
   <!-- -Liste des détails du produit -->
   <ul>
-    <!-- Boucle pour afficher chaque détail -->
+    <!-- -Boucle pour afficher chaque détail -->
     <li v-for="detail in details">
       {{ detail }} <!-- Affiche le détail -->
     </li>
