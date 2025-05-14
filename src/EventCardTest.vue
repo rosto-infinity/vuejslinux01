@@ -28,7 +28,7 @@ const UpdateImage = (variantImage) => {
         <img :src="image"> <!-- Image dynamique basée sur la variante sélectionnée -->
       </div>
         <!-- -Variantes du produit (couleurs) -->
-        <!-- l'image au survol  -->
+        <!-- -l'image au survol  -->
         <!-- Style dynamique pour la couleur -->
         <div
           v-for="variant in variants"
