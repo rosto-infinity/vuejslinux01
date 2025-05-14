@@ -4,7 +4,7 @@ import { ref } from 'vue'
 import socksGreenImage from './assets/images/socks_green.jpg'
 import socksBlueImage from './assets/images/socks_blue.jpg'
 
-// Déclaration des variables réactives
+// -Déclaration des variables réactives
 const image = ref(socksBlueImage) // Image par défaut du produit
 
 // Variantes du produit avec leurs couleurs et images associées
