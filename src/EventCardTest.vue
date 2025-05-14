@@ -13,7 +13,7 @@ const variants = ref([
   { id: 2235, color: 'blue', image: socksBlueImage },
 ])
 
-// Fonction pour mettre à jour l'image du produit en fonction de la variante sélectionnée
+// -Fonction pour mettre à jour l'image du produit en fonction de la variante sélectionnée
 const UpdateImage = (variantImage) => {
   image.value = variantImage
 }
