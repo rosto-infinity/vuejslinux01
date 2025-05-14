@@ -34,7 +34,7 @@ const variants = ref([
     <ul>
       <!-- -Boucle pour afficher chaque variante -->
       <li v-for="variant in variants" :key="variant.id">
-        {{ variant.color }} <!-- Affiche la couleur de la variante -->
+        {{ variant.color }} <!-- -Affiche la couleur de la variante -->
       </li>
     </ul>
   </ul>
