@@ -32,7 +32,7 @@ const variants = ref([
   <ul>
     <!-- -Sous-liste pour les variantes -->
     <ul>
-      <!-- Boucle pour afficher chaque variante -->
+      <!-- -Boucle pour afficher chaque variante -->
       <li v-for="variant in variants" :key="variant.id">
         {{ variant.color }} <!-- Affiche la couleur de la variante -->
       </li>
