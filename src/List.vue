@@ -2,7 +2,7 @@
 // -Importation de la fonction ref de Vue pour créer des données réactives
 import { ref } from 'vue';
 
-// Liste des détails du produit
+// -Liste des détails du produit
 const details = ref([
   '50% aaaa', // Composition du produit
   '50% bbb',  // Composition du produit
