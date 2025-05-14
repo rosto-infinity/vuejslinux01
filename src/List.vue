@@ -28,7 +28,7 @@ const variants = ref([
 
   <hr> <!-- -Séparateur visuel -->
 
-  <!-- Liste des variantes du produit -->
+  <!-- -Liste des variantes du produit -->
   <ul>
     <!-- Sous-liste pour les variantes -->
     <ul>
