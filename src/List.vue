@@ -22,7 +22,7 @@ const variants = ref([
   <ul>
     <!-- -Boucle pour afficher chaque détail -->
     <li v-for="detail in details">
-      {{ detail }} <!-- Affiche le détail -->
+      {{ detail }} <!-- -Affiche le détail -->
     </li>
   </ul>
 
