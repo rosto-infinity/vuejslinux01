@@ -7,7 +7,7 @@ import socksBlueImage from './assets/images/socks_blue.jpg'
 // -Déclaration des variables réactives
 const image = ref(socksBlueImage) // Image par défaut du produit
 
-// Variantes du produit avec leurs couleurs et images associées
+// -Variantes du produit avec leurs couleurs et images associées
 const variants = ref([
   { id: 2234, color: 'green', image: socksGreenImage },
   { id: 2235, color: 'blue', image: socksBlueImage },
