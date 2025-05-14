@@ -10,7 +10,7 @@ const details = ref([
   '90% ddd',  // Composition du produit
 ])
 
-// Variantes du produit avec leurs couleurs
+// -Variantes du produit avec leurs couleurs
 const variants = ref([
   { id: 784, color: 'green' }, // Variante avec couleur verte
   { id: 785, color: 'blue' },  // Variante avec couleur bleue
