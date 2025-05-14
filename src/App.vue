@@ -11,9 +11,9 @@ import EventCardTest from './EventCardTest.vue'
 
 </script>
 <template>
-  <!-- <EventCard />
-  <Conditional/> -->
-  <EventCardTest />
+   <EventCard /> 
+  <Conditional/>
+  <!-- <EventCardTest /> -->
 </template>
 <style scoped>
 </style>
