@@ -30,7 +30,7 @@ const variants = ref([
 
   <!-- -Liste des variantes du produit -->
   <ul>
-    <!-- Sous-liste pour les variantes -->
+    <!-- -Sous-liste pour les variantes -->
     <ul>
       <!-- Boucle pour afficher chaque variante -->
       <li v-for="variant in variants" :key="variant.id">
