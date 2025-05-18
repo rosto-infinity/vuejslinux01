@@ -6,6 +6,7 @@ import Other from './Other.vue'
 import Conditional from './Conditional.vue'
 import EventCard from './EventCard.vue'
 import EventCardTest from './EventCardTest.vue'
+import Count from './Count.vue'
 
 
 
@@ -13,6 +14,7 @@ import EventCardTest from './EventCardTest.vue'
 <template>
    <EventCard /> 
   <Conditional/>
+  <Count />
   <!-- <EventCardTest /> -->
 </template>
 <style scoped>
