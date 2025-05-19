@@ -59,7 +59,8 @@ const addColor = () => {
     <ul class="pl-9 pt-10">
       <!-- Itère sur chaque couleur dans colors -->
       <li v-for="color in colors" :key="color"> 
-        {{ color }} <!-- Affiche le nom de la couleur -->
+        <!-- Affiche le nom de la couleur -->
+        {{ color }} 
         <!-- -Appelle deleteColor pour supprimer la couleur -->
         <button
        
