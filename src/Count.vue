@@ -71,7 +71,7 @@ const decrement = () => {
       OK00000000000000000000 <!-- Indicateur visuel neutre/désactivé -->
     </div>
 
-    <!-- Boutons de contrôle -->
+    <!-- -Boutons de contrôle -->
     <div>
       <!-- Bouton Incrément (toujours actif) -->
       <button 
