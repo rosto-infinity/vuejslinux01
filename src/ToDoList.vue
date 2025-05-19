@@ -36,7 +36,7 @@ const addColor = () => {
 <template>
   <div class="p-17">
     <!-- Formulaire pour ajouter une nouvelle couleur -->
-     <!-- Lie le champ de saisie à la référence newColor -->
+     <!-- -Lie le champ de saisie à la référence newColor -->
     <form action="" @submit.prevent="addColor">
       <input 
         v-model="newColor" 
