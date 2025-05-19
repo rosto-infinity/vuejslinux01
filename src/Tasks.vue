@@ -12,7 +12,7 @@ const toggleStatus = () => {
   status.value = statusOrder[(currentIndex + 1) % statusOrder.length];
 };
 
-// Ajout de tâche avec vérification
+// -Ajout de tâche avec vérification
 const addTask = () => {
   if (newTask.value.trim()) {
     tasks.value.push(newTask.value.trim());
