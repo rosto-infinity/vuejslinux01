@@ -18,7 +18,7 @@ const sortColors = () => {
   colors.value.sort((a, b) => a > b ? 1 : -1) // Compare les couleurs pour le tri
 }
 
-// Déclare une référence réactive pour le nom de la nouvelle couleur
+// -Déclare une référence réactive pour le nom de la nouvelle couleur
 const newColor = ref('')
 
 // Déclare une référence pour les nouvelles couleurs (non utilisée ici)
