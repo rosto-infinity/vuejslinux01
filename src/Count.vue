@@ -11,7 +11,7 @@ import { ref } from 'vue'
 const count = ref(0)
 
 /**
- * Incrémente le compteur de +1
+ * -Incrémente le compteur de +1
  * @function
  * @example
  * // Avant : count = 2
