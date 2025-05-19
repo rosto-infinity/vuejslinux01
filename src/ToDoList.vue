@@ -14,7 +14,7 @@ const deleteColor = (color) => {
 
 // -Fonction pour trier les couleurs en ordre alphabétique
 const sortColors = () => {
-  // -Trie le tableau des couleurs
+  // --Trie le tableau des couleurs
   colors.value.sort((a, b) => a > b ? 1 : -1) // Compare les couleurs pour le tri
 }
 
