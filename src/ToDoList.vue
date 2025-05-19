@@ -21,7 +21,7 @@ const sortColors = () => {
 // -Déclare une référence réactive pour le nom de la nouvelle couleur
 const newColor = ref('')
 
-// Déclare une référence pour les nouvelles couleurs (non utilisée ici)
+// -Déclare une référence pour les nouvelles couleurs (non utilisée ici)
 
 
 // Fonction pour ajouter une nouvelle couleur à la liste
