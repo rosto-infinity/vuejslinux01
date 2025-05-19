@@ -8,7 +8,7 @@ const colors = ref(["Red", "Green", "Blue", "Gray"])
 const deleteColor = (color) => {
   // -Met à jour la liste des couleurs en filtrant celle à supprimer
   colors.value = colors.value.filter(
-    col => col !== color // Inclut uniquement les couleurs qui ne correspondent pas à celle à supprimer
+    col => col !== color // -Inclut uniquement les couleurs qui ne correspondent pas à celle à supprimer
   )
 }
 
