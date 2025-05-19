@@ -7,7 +7,7 @@
 
 import { ref } from 'vue'
 
-// Référence réactive pour le compteur (valeur initiale = 0)
+// -Référence réactive pour le compteur (valeur initiale = 0)
 const count = ref(0)
 
 /**
