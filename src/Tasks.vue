@@ -20,7 +20,7 @@ const addTask = () => {
   }
 };
 
-// Suppression de tâche
+// -Suppression de tâche
 const deleteTask = (index) => {
   tasks.value.splice(index, 1);
 };
