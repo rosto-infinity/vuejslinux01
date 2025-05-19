@@ -41,7 +41,7 @@ const decrement = () => {
 </script>
 
 <template>
-  <!-- Conteneur principal centré -->
+  <!-- -Conteneur principal centré -->
   <div class="text-center grid justify-center items-center">
     
     <!-- Titre du compteur avec couleur conditionnelle -->
