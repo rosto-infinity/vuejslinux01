@@ -4,7 +4,7 @@ import { ref } from 'vue'
 // -Déclare une référence réactive pour stocker les couleurs
 const colors = ref(["Red", "Green", "Blue", "Gray"])
 
-// Fonction pour supprimer une couleur de la liste
+// -Fonction pour supprimer une couleur de la liste
 const deleteColor = (color) => {
   // Met à jour la liste des couleurs en filtrant celle à supprimer
   colors.value = colors.value.filter(
