@@ -55,7 +55,7 @@ const decrement = () => {
       Compteur {{ count }}
     </h1>
 
-    <!-- Messages conditionnels -->
+    <!-- -Messages conditionnels -->
     <!-- Niveau Élevé (≥5) -->
     <div v-if="count >= 5" class="text-green-700 pl-12">
       OK++++>>>>>>>>>>>>>> <!-- Indicateur visuel positif -->
