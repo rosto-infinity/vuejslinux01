@@ -24,7 +24,7 @@ const newColor = ref('')
 // -Déclare une référence pour les nouvelles couleurs (non utilisée ici)
 
 
-// Fonction pour ajouter une nouvelle couleur à la liste
+// -Fonction pour ajouter une nouvelle couleur à la liste
 const addColor = () => {
   // Ajoute la nouvelle couleur à la liste des couleurs
   colors.value.push(newColor.value)
