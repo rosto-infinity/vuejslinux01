@@ -26,9 +26,9 @@ const newColor = ref('')
 
 // -Fonction pour ajouter une nouvelle couleur à la liste
 const addColor = () => {
-  // Ajoute la nouvelle couleur à la liste des couleurs
+  // -Ajoute la nouvelle couleur à la liste des couleurs
   colors.value.push(newColor.value)
-  // Réinitialise le champ de saisie
+  // -Réinitialise le champ de saisie
   newColor.value = ''
 }
 </script>
