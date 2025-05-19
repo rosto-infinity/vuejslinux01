@@ -25,7 +25,7 @@ const deleteTask = (index) => {
   tasks.value.splice(index, 1);
 };
 
-// Calcul des tâches filtrées selon le statut
+// -Calcul des tâches filtrées selon le statut
 const filteredTasks = computed(() => {
   switch(status.value) {
     case 'pending': 
