@@ -7,15 +7,18 @@ import Conditional from './Conditional.vue'
 import EventCard from './EventCard.vue'
 import EventCardTest from './EventCardTest.vue'
 import Count from './Count.vue'
+import ToDoList from './ToDoList.vue'
 
 
 
 </script>
 <template>
-   <EventCard /> 
-  <Conditional/>
-  <Count />
+   <!-- <EventCard />  -->
+  <!-- <Conditional/> -->
+  <!-- <Count /> -->
   <!-- <EventCardTest /> -->
+  <ToDoList />
+   
 </template>
 <style scoped>
 </style>
