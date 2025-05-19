@@ -106,7 +106,7 @@ const decrement = () => {
 </template>
 
 <style scoped>
-/* Styles isolés au composant */
+/* -Styles isolés au composant */
 /* .button {
   @apply px-3 py-2 mx-2 rounded-md bg-blue-500 text-white;
 } */
