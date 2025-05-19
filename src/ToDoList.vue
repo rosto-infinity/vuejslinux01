@@ -50,7 +50,7 @@ const addColor = () => {
     </form>
     
     <!-- -Bouton pour réorganiser la liste des couleurs -->
-     <!-- Appelle la méthode sortColors lors du clic -->
+     <!-- -Appelle la méthode sortColors lors du clic -->
     <button 
       @click="sortColors" 
       class="button">Réorganiser</button>
