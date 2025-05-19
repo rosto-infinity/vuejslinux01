@@ -49,7 +49,7 @@ const addColor = () => {
       class="bg-green-force px-7 rounded-md py-2 disabled:opacity-50 disabled:cursor-not-allowed">Ajouter</button> <!-- Bouton pour ajouter la couleur -->
     </form>
     
-    <!-- Bouton pour réorganiser la liste des couleurs -->
+    <!-- -Bouton pour réorganiser la liste des couleurs -->
      <!-- Appelle la méthode sortColors lors du clic -->
     <button 
       @click="sortColors" 
