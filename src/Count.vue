@@ -44,7 +44,7 @@ const decrement = () => {
   <!-- -Conteneur principal centré -->
   <div class="text-center grid justify-center items-center">
     
-    <!-- Titre du compteur avec couleur conditionnelle -->
+    <!-- -Titre du compteur avec couleur conditionnelle -->
     <!-- Accessibilité : annonce les changements  -->
 
     <h1 
