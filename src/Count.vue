@@ -82,7 +82,7 @@ const decrement = () => {
         Increment
       </button>
       
-      <!-- Bouton Décrément (conditionnel) -->
+      <!-- -Bouton Décrément (conditionnel) -->
       <button
         @click="decrement"
         :disabled="count <= 0"
