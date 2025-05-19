@@ -8,6 +8,7 @@ import EventCard from './EventCard.vue'
 import EventCardTest from './EventCardTest.vue'
 import Count from './Count.vue'
 import ToDoList from './ToDoList.vue'
+import Tasks from './Tasks.vue'
 
 
 
@@ -17,7 +18,8 @@ import ToDoList from './ToDoList.vue'
   <!-- <Conditional/> -->
   <!-- <Count /> -->
   <!-- <EventCardTest /> -->
-  <ToDoList />
+  <!-- <ToDoList /> -->
+  <Tasks />
    
 </template>
 <style scoped>
