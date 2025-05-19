@@ -55,11 +55,11 @@ const addColor = () => {
       @click="sortColors" 
       class="button">Réorganiser</button>
 
-    <!-- Liste des couleurs -->
+    <!-- -Liste des couleurs -->
     <ul class="pl-9 pt-10">
       <li v-for="color in colors" :key="color"> <!-- Itère sur chaque couleur dans colors -->
         {{ color }} <!-- Affiche le nom de la couleur -->
-        <!-- Appelle deleteColor pour supprimer la couleur -->
+        <!-- -Appelle deleteColor pour supprimer la couleur -->
         <button
        
           @click="deleteColor(color)" 
