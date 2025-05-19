@@ -75,7 +75,8 @@ const addColor = () => {
 
 <style scoped>
 .bg-green-force {
-    background-color: #0de270 !important; /* Couleur verte de Tailwind, forcée avec !important */
+  /* Couleur verte de Tailwind, forcée avec !important */
+    background-color: #0de270 !important; 
     cursor: pointer;
 }
 </style>
