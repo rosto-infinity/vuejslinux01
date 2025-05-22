@@ -27,7 +27,7 @@
       </button>
     </form>
 
-    <!-- Message affiché lorsqu'il n'y a pas de tâches -->
+    <!-- --Message affiché lorsqu'il n'y a pas de tâches -->
     <div v-if="newTodo.length === 0" class="text-2xl mt-3">
       Vous n'avez pas de tâches à faire 😞
     </div>
