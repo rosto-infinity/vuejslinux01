@@ -51,7 +51,7 @@ import { ref } from "vue";
 // -Référence pour le texte de la nouvelle tâche
 const newTodo = ref('');
 
-// Référence pour la liste des tâches
+// -Référence pour la liste des tâches
 const todos = ref([]);
 
 // Fonction pour ajouter une nouvelle tâche à la liste
