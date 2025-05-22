@@ -48,7 +48,7 @@
 <script setup>
 import { ref } from "vue";
 
-// Référence pour le texte de la nouvelle tâche
+// -Référence pour le texte de la nouvelle tâche
 const newTodo = ref('');
 
 // Référence pour la liste des tâches
