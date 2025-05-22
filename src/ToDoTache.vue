@@ -62,7 +62,7 @@ const addTodo = () => {
     date: Date.now()       // -Timestamp pour identifier de manière unique la tâche
   });
   
-  newTodo.value = " "; // Réinitialise la nouvelle tâche (peut gérer la suppression ou une autre logique ici)
+  newTodo.value = " "; // -Réinitialise la nouvelle tâche (peut gérer la suppression ou une autre logique ici)
 }
 </script>
 
