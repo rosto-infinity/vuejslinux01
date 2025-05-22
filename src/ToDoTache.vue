@@ -11,7 +11,7 @@
         placeholder="Tâche à effectuer"
       >
 
-      <!-- Bouton pour ajouter la tâche, désactivé si newTodo est vide -->
+      <!-- -Bouton pour ajouter la tâche, désactivé si newTodo est vide -->
       <button 
         :disabled="newTodo.length == 0"
         class="px-7 border-1 border-green-700 py-2 bg-green-700 rounded-r-md text-green-100 hover:bg-green-800 mr-3 disabled:opacity-50 disabled:cursor-not-allowed"
