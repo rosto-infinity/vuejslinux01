@@ -54,7 +54,7 @@ const newTodo = ref('');
 // -Référence pour la liste des tâches
 const todos = ref([]);
 
-// Fonction pour ajouter une nouvelle tâche à la liste
+// F-onction pour ajouter une nouvelle tâche à la liste
 const addTodo = () => {
   todos.value.push({
     title: newTodo.value,  // Titre de la nouvelle tâche
