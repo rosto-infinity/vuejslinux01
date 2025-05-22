@@ -9,6 +9,7 @@ import EventCardTest from './EventCardTest.vue'
 import Count from './Count.vue'
 import ToDoList from './ToDoList.vue'
 import Tasks from './Tasks.vue'
+import ToDoTache from './ToDoTache.vue'
 
 
 
@@ -19,7 +20,8 @@ import Tasks from './Tasks.vue'
   <!-- <Count /> -->
   <!-- <EventCardTest /> -->
   <!-- <ToDoList /> -->
-  <Tasks />
+  <!-- <Tasks /> -->
+   <ToDoTache />
    
 </template>
 <style scoped>
