@@ -57,7 +57,7 @@ const todos = ref([]);
 // F-onction pour ajouter une nouvelle tâche à la liste
 const addTodo = () => {
   todos.value.push({
-    title: newTodo.value,  // Titre de la nouvelle tâche
+    title: newTodo.value,  // -Titre de la nouvelle tâche
     completed: true,       // État de complétion initial (true par défaut, peut être ajusté plus tard)
     date: Date.now()       // Timestamp pour identifier de manière unique la tâche
   });
