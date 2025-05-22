@@ -59,7 +59,7 @@ const addTodo = () => {
   todos.value.push({
     title: newTodo.value,  // -Titre de la nouvelle tâche
     completed: false,       // État de complétion initial (false par défaut, peut être ajusté plus tard)
-    date: Date.now()       // Timestamp pour identifier de manière unique la tâche
+    date: Date.now()       // -Timestamp pour identifier de manière unique la tâche
   });
   
   newTodo.value = " "; // Réinitialise la nouvelle tâche (peut gérer la suppression ou une autre logique ici)
