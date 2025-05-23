@@ -50,7 +50,9 @@ const addColor = () => {
       >
       <button
        :disabled="newColor.length == 0"
-      class="bg-green-force px-7 rounded-md py-2 disabled:opacity-50 disabled:cursor-not-allowed">Ajouter</button> <!-- Bouton pour ajouter la couleur -->
+      class="bg-green-force px-7 
+      rounded-md py-2 disabled:opacity-50 
+      disabled:cursor-not-allowed">Ajouter</button> <!-- Bouton pour ajouter la couleur -->
     </form>
     
     <!-- -Bouton pour réorganiser la liste des couleurs -->

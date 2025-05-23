@@ -37,9 +37,12 @@
       <li 
         v-for="todo in todos" 
         :key="todo.date" 
+        :class="{
+          complete : todo.completed
+        }"
         class="text-2xl"
       >
-        <input type="checkbox" name="" id=""> {{ todo.title }}
+        <input type="checkbox" v-model="todo.completed"> {{ todo.title }}
       </li>
     </ul>
   </div>
@@ -52,7 +55,18 @@ import { ref } from "vue";
 const newTodo = ref('');
 
 // -Référence pour la liste des tâches
-const todos = ref([]);
+const todos = ref([
+  {
+    title : 'Tâche de test',
+    completed:true,
+    date : 1
+  },
+  {
+    title : 'Tâche à faire',
+    completed : false,
+    date : 2
+  },
+]);
 
 // F-onction pour ajouter une nouvelle tâche à la liste
 const addTodo = () => {
@@ -67,5 +81,9 @@ const addTodo = () => {
 </script>
 
 <style scoped>
-/* Styles spécifiques peuvent être ajoutés ici */
+/* -Styles spécifiques peuvent être ajoutés ici */
+.complete{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
 </style>
