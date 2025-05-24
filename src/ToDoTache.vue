@@ -13,7 +13,7 @@
 
       <!-- -Bouton pour ajouter la tâche, désactivé si newTodo est vide -->
       <button 
-        :disabled="newTodo.length == 0"
+        :disabled="newTodo.length === 0"
         class="px-7 border-1 border-green-700 py-2 bg-green-700 rounded-r-md text-green-100 hover:bg-green-800 mr-3 disabled:opacity-50 disabled:cursor-not-allowed"
       >
         Ajouter
@@ -35,7 +35,7 @@
     <!-- Liste des tâches -->
     <ul class="mt-5">
       <li 
-        v-for="todo in todos" 
+        v-for="todo in sortedTodo()" 
         :key="todo.date" 
         :class="{
           complete : todo.completed
@@ -77,6 +77,12 @@ const addTodo = () => {
   });
   
   newTodo.value = " "; // -Réinitialise la nouvelle tâche (peut gérer la suppression ou une autre logique ici)
+}
+
+const sortedTodo = () => {
+  return todos.value.toSorted(
+    (a,b) => a.completed > b.completed ? 1 :-1
+)
 }
 </script>
 
