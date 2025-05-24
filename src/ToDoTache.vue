@@ -38,11 +38,12 @@
         v-for="todo in sortedTodo()" 
         :key="todo.date" 
         :class="{
-          complete : todo.completed
+          'complete' : todo.completed
         }"
         class="text-2xl"
       >
         <input type="checkbox" v-model="todo.completed"> {{ todo.title }}
+        <button v-if="todo.completed" @click="deleteTodo(todo)" class="text-red-500 ml-2">Supprimer</button>
       </li>
     </ul>
   </div>
@@ -83,7 +84,11 @@ const sortedTodo = () => {
   return todos.value.toSorted(
     (a,b) => a.completed > b.completed ? 1 :-1
 )
+
 }
+const deleteTodo = (todo) => {
+  todos.value = todos.value.filter(t => t !== todo);
+};
 </script>
 
 <style scoped>
