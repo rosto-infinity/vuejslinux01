@@ -72,7 +72,7 @@ const todos = ref([
 const addTodo = () => {
   todos.value.push({
     title: newTodo.value,  // -Titre de la nouvelle tâche
-    completed: false,       // État de complétion initial (false par défaut, peut être ajusté plus tard)
+    completed: false,       // -État de complétion initial (false par défaut, peut être ajusté plus tard)
     date: Date.now()       // -Timestamp pour identifier de manière unique la tâche
   });
   
